@@ -36,15 +36,15 @@
             // ------------------------------------------------------------------------------------------------------------
             // |   `   |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |       |
             // |       |     |     |   ^  |      |      |                   |      |       |       |      |   _   |   +   |
-            // |       |     |  <- |   v  |  ->  |      |                   |      |       |       |      |   :   |   "   |
-            // |       |     |     |      |      |      |   {  |     |   }  |      |       |  <    |  >   |   ?   |   \   |
+            // |       |     |  <- |   v  |  ->  |      |                   |      |       |       |      |   :   |   \   |
+            // |       |     |     |      |      |      |   {  |     |   }  |      |       |  <    |  >   |   ?   |    "  |
             //                     |      |      |      |      |     |      |      |       |       |
 
             bindings = <
 &kp GRAVE   &kp EXCL    &kp AT     &kp HASH     &kp DOLLAR    &kp PRCNT                         &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR   &trans
 &trans      &trans      &trans     &kp UP       &trans        &trans                            &trans     &trans     &trans     &trans     &kp UNDER  &kp PLUS
-&trans      &trans      &kp LEFT   &kp DOWN     &kp RIGHT     &trans                            &trans     &trans     &trans     &trans     &kp COLON  &kp APOS
-&trans      &trans      &trans     &trans       &trans        &trans    &kp LBRC     &kp RBRC   &trans     &trans     &kp LT     &kp GT     &kp QMARK  &kp BSLH
+&trans      &trans      &kp LEFT   &kp DOWN     &kp RIGHT     &trans                            &trans     &trans     &trans     &trans     &kp COLON  &kp BSLH
+&trans      &trans      &trans     &trans       &trans        &trans    &kp LBRC     &kp RBRC   &trans     &trans     &kp LT     &kp GT     &kp QMARK  &kp APOS
                                    &trans       &trans        &trans    &trans       &trans     &trans     &trans     &trans     
             >;
 
@@ -55,15 +55,15 @@
             // ------------------------------------------------------------------------------------------------------------
             // |   ~   |  F1 |  F2 |  F3  |  F4  |  F5  |                   |   F6 |  F7   |  F8   |  F9  |  F10  |  F11  |
             // | BTCLR | BT1 | BT2 | BT3  |  BT4 |  BT5 |                   |      |       |       |      |   -   |       |
-            // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
-            // |       |     |     |      |      |      |      |      |     |      |       |       |      |       |  "|"  |
+            // |       |     |     |      |      |      |                   |      |       |       |      |       |  "|"  |
+            // |       |     |     |      |      |      |      |      |     |      |       |       |      |       |       |
             //                     |      |      |      |      |      |     |      |       |       |
 
             bindings = <
 &kp TILDE       &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                       &kp F6     &kp F7    &kp F8   &kp F9   &kp F10    &kp F11
 &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                 &trans     &trans    &trans   &trans   &kp MINUS  &trans 
-&trans          &trans        &trans        &trans        &trans        &trans                       &trans     &trans    &trans   &trans   &trans     &trans
-&trans          &trans        &trans        &trans        &trans        &trans    &trans    &trans   &trans     &trans    &trans   &trans   &trans     &kp PIPE
+&trans          &trans        &trans        &trans        &trans        &trans                       &trans     &trans    &trans   &trans   &trans     &kp PIPE
+&trans          &trans        &trans        &trans        &trans        &trans    &trans    &trans   &trans     &trans    &trans   &trans   &trans     &trans
                                             &trans        &trans        &trans    &trans    &trans   &trans     &trans    &trans
             >;
 
