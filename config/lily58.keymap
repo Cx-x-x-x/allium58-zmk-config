@@ -35,15 +35,15 @@
         lower_layer {
             // ------------------------------------------------------------------------------------------------------------
             // |   `   |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |       |
-            // |       |     |  ^  |      |      |      |                   |      |       |       |      |   _   |   +   |
-            // |       |  <- |  v  |  ->  |      |      |                   |      |       |       |      |   :   |   "   |
+            // |       |     |     |   ^  |      |      |                   |      |       |       |      |   _   |   +   |
+            // |       |     |  <- |   v  |  ->  |      |                   |      |       |       |      |   :   |   "   |
             // |       |     |     |      |      |      |   {  |     |   }  |      |       |  <    |  >   |   ?   |   \   |
             //                     |      |      |      |      |     |      |      |       |       |
 
             bindings = <
 &kp GRAVE   &kp EXCL    &kp AT     &kp HASH     &kp DOLLAR    &kp PRCNT                         &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR   &trans
-&trans      &trans      &kp UP     &trans       &trans        &trans                            &trans     &trans     &trans     &trans     &kp UNDER  &kp PLUS
-&trans      &kp LEFT    &kp DOWN   &kp RIGHT    &trans        &trans                            &trans     &trans     &trans     &trans     &kp COLON  &kp APOS
+&trans      &trans      &trans     &kp UP       &trans        &trans                            &trans     &trans     &trans     &trans     &kp UNDER  &kp PLUS
+&trans      &trans      &kp LEFT   &kp DOWN     &kp RIGHT     &trans                            &trans     &trans     &trans     &trans     &kp COLON  &kp APOS
 &trans      &trans      &trans     &trans       &trans        &trans    &kp LBRC     &kp RBRC   &trans     &trans     &kp LT     &kp GT     &kp QMARK  &kp BSLH
                                    &trans       &trans        &trans    &trans       &trans     &trans     &trans     &trans     
             >;
