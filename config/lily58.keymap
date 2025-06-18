@@ -35,16 +35,16 @@
         lower_layer {
             // ------------------------------------------------------------------------------------------------------------
             // |   `   |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |       |
-            // |       |     |     |   ^  |      |      |                   |      |       |       |      |   _   |   +   |
-            // |       |     |  <- |   v  |  ->  |      |                   |      |       |       |      |   :   |   \   |
+            // |       |PAGE_UP|   |  ^   | PAGE_DOWN|  |                   |      |       |       |      |   _   |   +   |
+            // |       |HOME |  <- |   v  |  ->  |  END |                   |      |       |       |      |   :   |   \   |
             // |       |     |     |      |      |      |   {  |     |   }  |      |       |  <    |  >   |   ?   |    "  |
             //                     |      |      |      |      |     |      |      |       |       |
 
             bindings = <
 &kp GRAVE   &kp EXCL    &kp AT     &kp HASH     &kp DOLLAR    &kp PRCNT                         &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR   &trans
-&trans      &trans      &trans     &kp UP       &trans        &trans                            &trans     &trans     &trans     &trans     &kp UNDER  &kp PLUS
-&trans      &trans      &kp LEFT   &kp DOWN     &kp RIGHT     &trans                            &trans     &trans     &trans     &trans     &kp COLON  &kp BSLH
-&trans      &trans      &trans     &trans       &trans        &trans    &kp LBRC     &kp RBRC   &trans     &trans     &kp LT     &kp GT     &kp QMARK  &kp APOS
+&trans      &kp PG_UP   &trans     &kp UP       &trans        &kp PG_DN                            &trans     &trans     &trans     &trans     &kp UNDER  &kp PLUS
+&trans      &kp HOME    &kp LEFT   &kp DOWN     &kp RIGHT     &kp END                           &trans     &trans     &trans     &trans     &kp COLON  &kp BSLH
+&trans      &kp N6      &kp N7     &kp N8       &kp N9        &kp N0    &kp LBRC     &kp RBRC   &trans     &trans     &kp LT     &kp GT     &kp QMARK  &kp APOS
                                    &trans       &trans        &trans    &trans       &trans     &trans     &trans     &trans     
             >;
 
